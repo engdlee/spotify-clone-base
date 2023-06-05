@@ -136,6 +136,7 @@ const manageSubscriptionStatusChange = async (
       id: subscription.id,
       user_id: uuid,
       metadata: subscription.metadata,
+
       // @ts-ignore
       status: subscription.status,
       price_id: subscription.items.data[0].price.id,
